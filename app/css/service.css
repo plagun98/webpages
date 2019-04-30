@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Titillium';
+  color: #222;
+  background: #F0F0F0;
+}
+.sidebar {
+  height: 100vh;
+  max-width: 170px;
+  background: #474747;
+  position: relative;
+}
+.sidebar__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #929292;
+}
+.sidebar__item p {
+  color: #fff;
+  font-size: 14px;
+}
+.sidebar__item i {
+  color: #fff;
+  font-size: 14px;
+  padding-right: 10px;
+  margin-top: 4px;
+  display: none;
+}
+.sidebar__item:hover {
+  background: #121212;
+}
+.sidebar__item:hover i {
+  display: block;
+}
+.sidebar__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.sidebar__bottom i {
+  color: #fff;
+  font-size: 19px;
+  padding: 5px;
+}
+@font-face {
+  font-family: "Titillium";
+  src: url("../fonts/TitilliumWeb-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
