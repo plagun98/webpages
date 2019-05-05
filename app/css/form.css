@@ -17,8 +17,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Open Sans';
+  font-family: 'Titillium';
   color: #222;
+  background: #F0F0F0;
 }
 .flex {
   display: -webkit-box;
@@ -28,4 +29,22 @@ body {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
+}
+form {
+  background: #fff;
+  border-left: 1px solid #cecece;
+  border-right: 1px solid #cecece;
+  padding: 50px !important;
+}
+form label {
+  color: #000 !important;
+}
+.for__aluminium {
+  display: none;
+}
+@font-face {
+  font-family: "Titillium";
+  src: url("../fonts/TitilliumWeb-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
 }

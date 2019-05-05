@@ -18,4 +18,11 @@ window.onload= ()=>{
         })
     });
     $('select').formSelect(); 
+    $(".group2").change(()=>{
+        if($("#alum").prop("checked")){
+            $(".for__aluminium").css("display","block");
+        } else {
+            $(".for__aluminium").css("display","none");
+        }
+    })
 }
